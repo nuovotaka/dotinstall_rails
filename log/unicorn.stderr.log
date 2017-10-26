@@ -1,0 +1,248 @@
+I, [2017-10-25T07:03:20.702271 #1]  INFO -- : listening on addr=/share/unicorn.sock fd=9
+I, [2017-10-25T07:03:20.702768 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=10
+I, [2017-10-25T07:03:20.703080 #1]  INFO -- : worker=0 spawning...
+I, [2017-10-25T07:03:20.703985 #1]  INFO -- : worker=1 spawning...
+I, [2017-10-25T07:03:20.704350 #6]  INFO -- : worker=0 spawned pid=6
+I, [2017-10-25T07:03:20.704912 #6]  INFO -- : Refreshing Gem list
+I, [2017-10-25T07:03:20.705266 #1]  INFO -- : worker=2 spawning...
+I, [2017-10-25T07:03:20.705561 #9]  INFO -- : worker=1 spawned pid=9
+I, [2017-10-25T07:03:20.706539 #9]  INFO -- : Refreshing Gem list
+I, [2017-10-25T07:03:20.707388 #1]  INFO -- : worker=3 spawning...
+I, [2017-10-25T07:03:20.713423 #1]  INFO -- : worker=4 spawning...
+I, [2017-10-25T07:03:20.713998 #12]  INFO -- : worker=2 spawned pid=12
+I, [2017-10-25T07:03:20.715246 #12]  INFO -- : Refreshing Gem list
+I, [2017-10-25T07:03:20.716465 #1]  INFO -- : worker=5 spawning...
+I, [2017-10-25T07:03:20.717887 #15]  INFO -- : worker=3 spawned pid=15
+I, [2017-10-25T07:03:20.722758 #17]  INFO -- : worker=4 spawned pid=17
+I, [2017-10-25T07:03:20.723435 #1]  INFO -- : worker=6 spawning...
+I, [2017-10-25T07:03:20.724131 #17]  INFO -- : Refreshing Gem list
+I, [2017-10-25T07:03:20.723473 #15]  INFO -- : Refreshing Gem list
+I, [2017-10-25T07:03:20.752885 #21]  INFO -- : worker=5 spawned pid=21
+I, [2017-10-25T07:03:20.754039 #21]  INFO -- : Refreshing Gem list
+I, [2017-10-25T07:03:20.806480 #1]  INFO -- : worker=7 spawning...
+I, [2017-10-25T07:03:20.813717 #1]  INFO -- : master process ready
+I, [2017-10-25T07:03:20.815335 #24]  INFO -- : worker=6 spawned pid=24
+I, [2017-10-25T07:03:20.815908 #24]  INFO -- : Refreshing Gem list
+I, [2017-10-25T07:03:20.833259 #26]  INFO -- : worker=7 spawned pid=26
+I, [2017-10-25T07:03:20.833809 #26]  INFO -- : Refreshing Gem list
+I, [2017-10-25T07:03:28.106767 #6]  INFO -- : worker=0 ready
+I, [2017-10-25T07:03:28.164945 #9]  INFO -- : worker=1 ready
+I, [2017-10-25T07:03:28.504895 #21]  INFO -- : worker=5 ready
+I, [2017-10-25T07:03:28.524708 #15]  INFO -- : worker=3 ready
+I, [2017-10-25T07:03:28.601269 #26]  INFO -- : worker=7 ready
+I, [2017-10-25T07:03:28.626630 #17]  INFO -- : worker=4 ready
+I, [2017-10-25T07:03:28.638937 #12]  INFO -- : worker=2 ready
+I, [2017-10-25T07:03:28.695912 #24]  INFO -- : worker=6 ready
+172.24.0.1 - - [25/Oct/2017:07:03:43 +0000] "GET / HTTP/1.0" 200 - 1.1979
+172.24.0.1 - - [25/Oct/2017:07:03:44 +0000] "GET /favicon.ico HTTP/1.0" 200 - 0.0101
+172.24.0.1 - - [25/Oct/2017:07:03:48 +0000] "GET / HTTP/1.0" 304 - 0.0221
+172.24.0.1 - - [25/Oct/2017:07:03:48 +0000] "GET /favicon.ico HTTP/1.0" 200 - 0.2991
+172.24.0.1 - - [25/Oct/2017:07:04:00 +0000] "GET / HTTP/1.1" 304 - 1.2210
+I, [2017-10-25T07:04:30.320769 #1]  INFO -- : reaped #<Process::Status: pid 6 exit 0> worker=0
+I, [2017-10-25T07:04:30.321309 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=1
+I, [2017-10-25T07:04:30.321676 #1]  INFO -- : reaped #<Process::Status: pid 12 exit 0> worker=2
+I, [2017-10-25T07:04:30.322079 #1]  INFO -- : reaped #<Process::Status: pid 15 exit 0> worker=3
+I, [2017-10-25T07:04:30.322448 #1]  INFO -- : reaped #<Process::Status: pid 17 exit 0> worker=4
+I, [2017-10-25T07:04:30.322795 #1]  INFO -- : reaped #<Process::Status: pid 21 exit 0> worker=5
+I, [2017-10-25T07:04:30.323135 #1]  INFO -- : reaped #<Process::Status: pid 24 exit 0> worker=6
+I, [2017-10-25T07:04:30.323457 #1]  INFO -- : reaped #<Process::Status: pid 26 exit 0> worker=7
+I, [2017-10-25T07:04:30.323826 #1]  INFO -- : master complete
+I, [2017-10-25T08:12:29.256933 #1]  INFO -- : listening on addr=/share/unicorn.sock fd=9
+I, [2017-10-25T08:12:29.258384 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=10
+I, [2017-10-25T08:12:29.259234 #1]  INFO -- : worker=0 spawning...
+I, [2017-10-25T08:12:29.261092 #1]  INFO -- : worker=1 spawning...
+I, [2017-10-25T08:12:29.262832 #6]  INFO -- : worker=0 spawned pid=6
+I, [2017-10-25T08:12:29.266475 #6]  INFO -- : Refreshing Gem list
+I, [2017-10-25T08:12:29.264794 #1]  INFO -- : worker=2 spawning...
+I, [2017-10-25T08:12:29.266051 #9]  INFO -- : worker=1 spawned pid=9
+I, [2017-10-25T08:12:29.269914 #9]  INFO -- : Refreshing Gem list
+I, [2017-10-25T08:12:29.270110 #1]  INFO -- : worker=3 spawning...
+I, [2017-10-25T08:12:29.272691 #1]  INFO -- : worker=4 spawning...
+I, [2017-10-25T08:12:29.283204 #12]  INFO -- : worker=2 spawned pid=12
+I, [2017-10-25T08:12:29.285535 #12]  INFO -- : Refreshing Gem list
+I, [2017-10-25T08:12:29.286404 #1]  INFO -- : worker=5 spawning...
+I, [2017-10-25T08:12:29.286591 #15]  INFO -- : worker=3 spawned pid=15
+I, [2017-10-25T08:12:29.288208 #15]  INFO -- : Refreshing Gem list
+I, [2017-10-25T08:12:29.289429 #1]  INFO -- : worker=6 spawning...
+I, [2017-10-25T08:12:29.323555 #18]  INFO -- : worker=4 spawned pid=18
+I, [2017-10-25T08:12:29.324727 #18]  INFO -- : Refreshing Gem list
+I, [2017-10-25T08:12:29.344763 #1]  INFO -- : worker=7 spawning...
+I, [2017-10-25T08:12:29.348361 #20]  INFO -- : worker=5 spawned pid=20
+I, [2017-10-25T08:12:29.349828 #20]  INFO -- : Refreshing Gem list
+I, [2017-10-25T08:12:29.351085 #1]  INFO -- : master process ready
+I, [2017-10-25T08:12:29.354974 #23]  INFO -- : worker=6 spawned pid=23
+I, [2017-10-25T08:12:29.365063 #23]  INFO -- : Refreshing Gem list
+I, [2017-10-25T08:12:29.362352 #26]  INFO -- : worker=7 spawned pid=26
+I, [2017-10-25T08:12:29.366856 #26]  INFO -- : Refreshing Gem list
+I, [2017-10-25T08:12:39.214571 #6]  INFO -- : worker=0 ready
+I, [2017-10-25T08:12:39.477007 #12]  INFO -- : worker=2 ready
+I, [2017-10-25T08:12:39.693293 #23]  INFO -- : worker=6 ready
+I, [2017-10-25T08:12:39.766094 #15]  INFO -- : worker=3 ready
+I, [2017-10-25T08:12:39.822926 #20]  INFO -- : worker=5 ready
+I, [2017-10-25T08:12:39.831826 #26]  INFO -- : worker=7 ready
+I, [2017-10-25T08:12:39.918125 #18]  INFO -- : worker=4 ready
+I, [2017-10-25T08:12:39.931114 #9]  INFO -- : worker=1 ready
+172.18.0.1 - - [25/Oct/2017:08:12:43 +0000] "GET / HTTP/1.1" 304 - 1.4287
+172.18.0.1 - - [25/Oct/2017:08:12:53 +0000] "GET / HTTP/1.0" 304 - 2.7453
+172.18.0.1 - - [25/Oct/2017:08:12:54 +0000] "GET /favicon.ico HTTP/1.0" 304 - 0.3828
+I, [2017-10-25T08:13:16.263027 #1]  INFO -- : reaped #<Process::Status: pid 6 exit 0> worker=0
+I, [2017-10-25T08:13:16.263555 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=1
+I, [2017-10-25T08:13:16.263971 #1]  INFO -- : reaped #<Process::Status: pid 12 exit 0> worker=2
+I, [2017-10-25T08:13:16.264344 #1]  INFO -- : reaped #<Process::Status: pid 15 exit 0> worker=3
+I, [2017-10-25T08:13:16.264754 #1]  INFO -- : reaped #<Process::Status: pid 18 exit 0> worker=4
+I, [2017-10-25T08:13:16.265128 #1]  INFO -- : reaped #<Process::Status: pid 20 exit 0> worker=5
+I, [2017-10-25T08:13:16.265549 #1]  INFO -- : reaped #<Process::Status: pid 23 exit 0> worker=6
+I, [2017-10-25T08:13:16.265928 #1]  INFO -- : reaped #<Process::Status: pid 26 exit 0> worker=7
+I, [2017-10-25T08:13:16.266310 #1]  INFO -- : master complete
+I, [2017-10-25T23:56:23.155671 #1]  INFO -- : listening on addr=/share/unicorn.sock fd=9
+I, [2017-10-25T23:56:23.156830 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=10
+I, [2017-10-25T23:56:23.157525 #1]  INFO -- : worker=0 spawning...
+I, [2017-10-25T23:56:23.161133 #1]  INFO -- : worker=1 spawning...
+I, [2017-10-25T23:56:23.161658 #6]  INFO -- : worker=0 spawned pid=6
+I, [2017-10-25T23:56:23.162471 #6]  INFO -- : Refreshing Gem list
+I, [2017-10-25T23:56:23.162956 #1]  INFO -- : worker=2 spawning...
+I, [2017-10-25T23:56:23.164029 #9]  INFO -- : worker=1 spawned pid=9
+I, [2017-10-25T23:56:23.165064 #9]  INFO -- : Refreshing Gem list
+I, [2017-10-25T23:56:23.166633 #1]  INFO -- : worker=3 spawning...
+I, [2017-10-25T23:56:23.168113 #1]  INFO -- : worker=4 spawning...
+I, [2017-10-25T23:56:23.168895 #12]  INFO -- : worker=2 spawned pid=12
+I, [2017-10-25T23:56:23.169891 #12]  INFO -- : Refreshing Gem list
+I, [2017-10-25T23:56:23.170808 #1]  INFO -- : worker=5 spawning...
+I, [2017-10-25T23:56:23.170986 #14]  INFO -- : worker=3 spawned pid=14
+I, [2017-10-25T23:56:23.173544 #14]  INFO -- : Refreshing Gem list
+I, [2017-10-25T23:56:23.173091 #1]  INFO -- : worker=6 spawning...
+I, [2017-10-25T23:56:23.172169 #18]  INFO -- : worker=4 spawned pid=18
+I, [2017-10-25T23:56:23.177550 #18]  INFO -- : Refreshing Gem list
+I, [2017-10-25T23:56:23.177055 #1]  INFO -- : worker=7 spawning...
+I, [2017-10-25T23:56:23.178750 #23]  INFO -- : worker=6 spawned pid=23
+I, [2017-10-25T23:56:23.184535 #23]  INFO -- : Refreshing Gem list
+I, [2017-10-25T23:56:23.186866 #1]  INFO -- : master process ready
+I, [2017-10-25T23:56:23.188325 #21]  INFO -- : worker=5 spawned pid=21
+I, [2017-10-25T23:56:23.190091 #21]  INFO -- : Refreshing Gem list
+I, [2017-10-25T23:56:23.198237 #27]  INFO -- : worker=7 spawned pid=27
+I, [2017-10-25T23:56:23.199751 #27]  INFO -- : Refreshing Gem list
+I, [2017-10-25T23:56:39.088481 #14]  INFO -- : worker=3 ready
+I, [2017-10-25T23:56:39.357634 #23]  INFO -- : worker=6 ready
+I, [2017-10-25T23:56:39.599701 #12]  INFO -- : worker=2 ready
+I, [2017-10-25T23:56:39.944049 #18]  INFO -- : worker=4 ready
+I, [2017-10-25T23:56:40.059543 #9]  INFO -- : worker=1 ready
+I, [2017-10-25T23:56:40.229027 #6]  INFO -- : worker=0 ready
+I, [2017-10-25T23:56:40.251051 #21]  INFO -- : worker=5 ready
+I, [2017-10-25T23:56:40.317859 #27]  INFO -- : worker=7 ready
+172.18.0.1 - - [26/Oct/2017:00:14:51 +0000] "GET / HTTP/1.0" 304 - 1.1510
+172.18.0.1 - - [26/Oct/2017:00:14:52 +0000] "GET /favicon.ico HTTP/1.0" 304 - 0.2928
+172.18.0.1 - - [26/Oct/2017:00:15:01 +0000] "GET /posts HTTP/1.0" 500 104044 1.2120
+172.18.0.1 - - [26/Oct/2017:00:15:39 +0000] "GET /posts HTTP/1.0" 500 104085 0.1767
+172.18.0.1 - - [26/Oct/2017:00:15:39 +0000] "GET /favicon.ico HTTP/1.0" 200 - 0.2106
+172.18.0.1 - - [26/Oct/2017:00:15:42 +0000] "GET /posts HTTP/1.0" 500 104085 1.1800
+172.18.0.1 - - [26/Oct/2017:00:15:43 +0000] "GET /favicon.ico HTTP/1.0" 200 - 0.2577
+172.18.0.1 - - [26/Oct/2017:00:16:29 +0000] "GET /posts HTTP/1.0" 200 - 1.6894
+172.18.0.1 - - [26/Oct/2017:00:16:29 +0000] "GET /favicon.ico HTTP/1.0" 200 - 0.0082
+172.18.0.1 - - [26/Oct/2017:00:18:16 +0000] "GET / HTTP/1.0" 200 - 1.2854
+172.18.0.1 - - [26/Oct/2017:00:27:11 +0000] "GET / HTTP/1.0" 200 - 0.4335
+172.18.0.1 - - [26/Oct/2017:00:27:12 +0000] "GET /favicon.ico HTTP/1.0" 200 - 0.0216
+172.18.0.1 - - [26/Oct/2017:00:31:08 +0000] "GET / HTTP/1.0" 200 - 0.1075
+172.18.0.1 - - [26/Oct/2017:00:31:09 +0000] "GET /favicon.ico HTTP/1.0" 200 - 0.0114
+172.18.0.1 - - [26/Oct/2017:00:34:11 +0000] "GET / HTTP/1.0" 200 - 0.2353
+172.18.0.1 - - [26/Oct/2017:00:34:12 +0000] "GET /favicon.ico HTTP/1.0" 200 - 0.0125
+172.18.0.1 - - [26/Oct/2017:00:34:14 +0000] "GET /posts/1 HTTP/1.0" 200 - 0.8272
+172.18.0.1 - - [26/Oct/2017:00:34:20 +0000] "GET /posts/2 HTTP/1.0" 200 - 0.6196
+172.18.0.1 - - [26/Oct/2017:00:36:04 +0000] "GET / HTTP/1.0" 200 - 0.2235
+172.18.0.1 - - [26/Oct/2017:00:36:04 +0000] "GET /logo-754bf49663c37c6de14d5a231d1647d9c7f24ef629970152efbfc796c209af2c.png HTTP/1.0" 200 4011 0.0631
+172.18.0.1 - - [26/Oct/2017:00:36:05 +0000] "GET /favicon.ico HTTP/1.0" 200 - 0.0098
+172.18.0.1 - - [26/Oct/2017:00:36:56 +0000] "GET / HTTP/1.0" 500 148456 0.2772
+172.18.0.1 - - [26/Oct/2017:00:36:56 +0000] "GET /favicon.ico HTTP/1.0" 200 - 0.2993
+172.18.0.1 - - [26/Oct/2017:00:37:25 +0000] "GET / HTTP/1.0" 200 - 0.1907
+172.18.0.1 - - [26/Oct/2017:00:37:25 +0000] "GET /favicon.ico HTTP/1.0" 200 - 0.0084
+172.18.0.1 - - [26/Oct/2017:00:37:34 +0000] "GET /posts/1 HTTP/1.0" 200 - 1.5496
+172.18.0.1 - - [26/Oct/2017:00:39:21 +0000] "GET / HTTP/1.0" 200 - 0.1533
+172.18.0.1 - - [26/Oct/2017:00:39:22 +0000] "GET /favicon.ico HTTP/1.0" 200 - 0.0094
+172.18.0.1 - - [26/Oct/2017:00:39:23 +0000] "GET / HTTP/1.0" 200 - 0.1314
+172.18.0.1 - - [26/Oct/2017:00:39:26 +0000] "GET /posts/1 HTTP/1.0" 200 - 1.3423
+172.18.0.1 - - [26/Oct/2017:00:39:27 +0000] "GET / HTTP/1.0" 200 - 0.1683
+172.18.0.1 - - [26/Oct/2017:00:43:34 +0000] "GET / HTTP/1.0" 200 - 0.2082
+172.18.0.1 - - [26/Oct/2017:00:43:35 +0000] "GET /favicon.ico HTTP/1.0" 200 - 0.0089
+172.18.0.1 - - [26/Oct/2017:00:50:22 +0000] "GET /posts/new HTTP/1.0" 200 - 1.4666
+172.18.0.1 - - [26/Oct/2017:00:50:25 +0000] "GET / HTTP/1.0" 200 - 0.1886
+172.18.0.1 - - [26/Oct/2017:00:52:13 +0000] "GET /posts/new HTTP/1.0" 200 - 0.8652
+172.18.0.1 - - [26/Oct/2017:00:52:13 +0000] "GET /posts/new HTTP/1.0" 200 - 0.2688
+172.18.0.1 - - [26/Oct/2017:00:52:16 +0000] "GET / HTTP/1.0" 200 - 0.2816
+172.18.0.1 - - [26/Oct/2017:00:57:22 +0000] "GET / HTTP/1.0" 200 - 0.2653
+172.18.0.1 - - [26/Oct/2017:00:57:24 +0000] "GET / HTTP/1.0" 200 - 0.1582
+172.18.0.1 - - [26/Oct/2017:00:57:24 +0000] "GET /favicon.ico HTTP/1.0" 200 - 0.0078
+172.18.0.1 - - [26/Oct/2017:00:57:26 +0000] "GET /posts/new HTTP/1.0" 200 - 0.2528
+172.18.0.1 - - [26/Oct/2017:00:57:30 +0000] "POST /posts HTTP/1.0" 302 - 0.0464
+172.18.0.1 - - [26/Oct/2017:00:57:31 +0000] "GET /posts HTTP/1.0" 200 - 0.1657
+172.18.0.1 - - [26/Oct/2017:01:07:15 +0000] "GET /posts HTTP/1.0" 200 - 0.2826
+172.18.0.1 - - [26/Oct/2017:01:07:16 +0000] "GET /favicon.ico HTTP/1.0" 200 - 0.0104
+172.18.0.1 - - [26/Oct/2017:01:07:17 +0000] "GET /posts/new HTTP/1.0" 200 - 0.2759
+172.18.0.1 - - [26/Oct/2017:01:07:22 +0000] "POST /posts HTTP/1.0" 200 - 0.2925
+172.18.0.1 - - [26/Oct/2017:01:07:26 +0000] "POST /posts HTTP/1.0" 200 - 0.3013
+172.18.0.1 - - [26/Oct/2017:01:07:31 +0000] "POST /posts HTTP/1.0" 200 - 0.3190
+172.18.0.1 - - [26/Oct/2017:01:07:35 +0000] "POST /posts HTTP/1.0" 302 - 0.1266
+172.18.0.1 - - [26/Oct/2017:01:07:35 +0000] "GET /posts HTTP/1.0" 200 - 0.1876
+172.18.0.1 - - [26/Oct/2017:01:10:43 +0000] "GET /posts HTTP/1.0" 200 - 0.2886
+172.18.0.1 - - [26/Oct/2017:01:10:44 +0000] "GET /favicon.ico HTTP/1.0" 200 - 0.0121
+172.18.0.1 - - [26/Oct/2017:01:13:50 +0000] "GET /posts/7/edit HTTP/1.0" 200 - 0.2794
+172.18.0.1 - - [26/Oct/2017:01:16:33 +0000] "GET / HTTP/1.0" 200 - 0.2276
+172.18.0.1 - - [26/Oct/2017:01:16:35 +0000] "GET /posts/7/edit HTTP/1.0" 200 - 0.1980
+172.18.0.1 - - [26/Oct/2017:01:16:46 +0000] "PATCH /posts/7 HTTP/1.0" 302 - 0.0555
+172.18.0.1 - - [26/Oct/2017:01:16:46 +0000] "GET /posts HTTP/1.0" 200 - 0.2938
+172.18.0.1 - - [26/Oct/2017:01:16:49 +0000] "GET /posts/7 HTTP/1.0" 200 - 0.1534
+172.18.0.1 - - [26/Oct/2017:01:18:05 +0000] "GET /posts/7 HTTP/1.0" 200 - 0.1421
+172.18.0.1 - - [26/Oct/2017:01:18:05 +0000] "GET /favicon.ico HTTP/1.0" 200 - 0.0077
+172.18.0.1 - - [26/Oct/2017:01:18:07 +0000] "GET / HTTP/1.0" 200 - 0.2322
+172.18.0.1 - - [26/Oct/2017:01:22:17 +0000] "GET /posts/new HTTP/1.0" 200 - 0.3064
+172.18.0.1 - - [26/Oct/2017:01:22:29 +0000] "POST /posts HTTP/1.0" 302 - 0.0291
+172.18.0.1 - - [26/Oct/2017:01:22:29 +0000] "GET /posts HTTP/1.0" 200 - 0.3150
+172.18.0.1 - - [26/Oct/2017:01:22:31 +0000] "GET /posts/8/edit HTTP/1.0" 200 - 0.4060
+172.18.0.1 - - [26/Oct/2017:01:22:36 +0000] "PATCH /posts/8 HTTP/1.0" 302 - 0.1344
+172.18.0.1 - - [26/Oct/2017:01:22:36 +0000] "GET /posts HTTP/1.0" 200 - 0.1989
+172.18.0.1 - - [26/Oct/2017:01:27:01 +0000] "GET /posts HTTP/1.0" 200 - 0.2535
+172.18.0.1 - - [26/Oct/2017:01:27:02 +0000] "GET /favicon.ico HTTP/1.0" 200 - 0.0078
+172.18.0.1 - - [26/Oct/2017:01:27:09 +0000] "DELETE /posts/8 HTTP/1.0" 302 - 0.0357
+172.18.0.1 - - [26/Oct/2017:01:27:09 +0000] "GET /posts HTTP/1.0" 200 - 0.1694
+172.18.0.1 - - [26/Oct/2017:01:38:33 +0000] "GET /posts HTTP/1.0" 200 - 0.8776
+172.18.0.1 - - [26/Oct/2017:01:38:34 +0000] "GET /favicon.ico HTTP/1.0" 200 - 0.0179
+172.18.0.1 - - [26/Oct/2017:01:38:35 +0000] "GET /posts/7 HTTP/1.0" 200 - 0.5994
+172.18.0.1 - - [26/Oct/2017:01:38:40 +0000] "GET / HTTP/1.0" 200 - 0.1611
+172.18.0.1 - - [26/Oct/2017:01:46:12 +0000] "GET / HTTP/1.0" 200 - 0.2810
+172.18.0.1 - - [26/Oct/2017:01:46:13 +0000] "GET /favicon.ico HTTP/1.0" 200 - 0.0090
+172.18.0.1 - - [26/Oct/2017:01:46:14 +0000] "GET /posts/7 HTTP/1.0" 200 - 0.2160
+172.18.0.1 - - [26/Oct/2017:01:46:22 +0000] "POST /posts/7/comments HTTP/1.0" 302 - 0.0374
+172.18.0.1 - - [26/Oct/2017:01:46:22 +0000] "GET /posts/7 HTTP/1.0" 200 - 0.5587
+172.18.0.1 - - [26/Oct/2017:01:46:31 +0000] "POST /posts/7/comments HTTP/1.0" 302 - 0.2261
+172.18.0.1 - - [26/Oct/2017:01:46:31 +0000] "GET /posts/7 HTTP/1.0" 200 - 0.3064
+172.18.0.1 - - [26/Oct/2017:01:46:48 +0000] "POST /posts/7/comments HTTP/1.0" 302 - 0.0230
+172.18.0.1 - - [26/Oct/2017:01:46:48 +0000] "GET /posts/7 HTTP/1.0" 200 - 0.1807
+172.18.0.1 - - [26/Oct/2017:01:51:24 +0000] "GET /posts/7 HTTP/1.0" 200 - 0.2773
+172.18.0.1 - - [26/Oct/2017:01:51:25 +0000] "GET /favicon.ico HTTP/1.0" 200 - 0.0100
+172.18.0.1 - - [26/Oct/2017:01:51:31 +0000] "DELETE /posts/7/comments/1 HTTP/1.0" 302 - 0.0411
+172.18.0.1 - - [26/Oct/2017:01:51:31 +0000] "GET /posts/7 HTTP/1.0" 200 - 0.1619
+172.18.0.1 - - [26/Oct/2017:01:55:09 +0000] "GET /posts/7 HTTP/1.0" 200 - 0.3783
+172.18.0.1 - - [26/Oct/2017:01:55:09 +0000] "GET /favicon.ico HTTP/1.0" 200 - 0.0117
+172.18.0.1 - - [26/Oct/2017:01:55:10 +0000] "GET / HTTP/1.0" 200 - 0.3822
+172.18.0.1 - - [26/Oct/2017:01:55:13 +0000] "GET /posts/new HTTP/1.0" 200 - 0.1672
+172.18.0.1 - - [26/Oct/2017:01:55:23 +0000] "POST /posts HTTP/1.0" 302 - 0.0327
+172.18.0.1 - - [26/Oct/2017:01:55:23 +0000] "GET /posts HTTP/1.0" 200 - 0.3921
+172.18.0.1 - - [26/Oct/2017:01:55:25 +0000] "GET /posts/9 HTTP/1.0" 200 - 0.3082
+172.18.0.1 - - [26/Oct/2017:01:55:28 +0000] "POST /posts/9/comments HTTP/1.0" 302 - 0.0505
+172.18.0.1 - - [26/Oct/2017:01:55:28 +0000] "GET /posts/9 HTTP/1.0" 200 - 0.3510
+172.18.0.1 - - [26/Oct/2017:01:55:31 +0000] "POST /posts/9/comments HTTP/1.0" 302 - 0.2242
+172.18.0.1 - - [26/Oct/2017:01:55:32 +0000] "GET /posts/9 HTTP/1.0" 200 - 0.1741
+172.18.0.1 - - [26/Oct/2017:01:55:34 +0000] "GET / HTTP/1.0" 200 - 0.3385
+172.18.0.1 - - [26/Oct/2017:01:55:37 +0000] "GET /posts/9 HTTP/1.0" 200 - 0.3289
+172.18.0.1 - - [26/Oct/2017:01:55:40 +0000] "GET / HTTP/1.0" 200 - 0.1882
+172.18.0.1 - - [26/Oct/2017:01:56:24 +0000] "GET /posts/9 HTTP/1.0" 200 - 0.3934
+172.18.0.1 - - [26/Oct/2017:01:56:26 +0000] "GET / HTTP/1.0" 200 - 0.2463
+172.18.0.1 - - [26/Oct/2017:01:57:33 +0000] "DELETE /posts/9 HTTP/1.0" 302 - 0.0259
+172.18.0.1 - - [26/Oct/2017:01:57:34 +0000] "GET /posts HTTP/1.0" 200 - 0.1876
+I, [2017-10-26T01:58:44.885755 #1]  INFO -- : reaped #<Process::Status: pid 27 exit 0> worker=7
+I, [2017-10-26T01:58:44.986982 #1]  INFO -- : reaped #<Process::Status: pid 6 exit 0> worker=0
+I, [2017-10-26T01:58:44.987714 #1]  INFO -- : reaped #<Process::Status: pid 9 exit 0> worker=1
+I, [2017-10-26T01:58:44.988568 #1]  INFO -- : reaped #<Process::Status: pid 12 exit 0> worker=2
+I, [2017-10-26T01:58:44.989088 #1]  INFO -- : reaped #<Process::Status: pid 14 exit 0> worker=3
+I, [2017-10-26T01:58:44.989490 #1]  INFO -- : reaped #<Process::Status: pid 18 exit 0> worker=4
+I, [2017-10-26T01:58:44.990137 #1]  INFO -- : reaped #<Process::Status: pid 21 exit 0> worker=5
+I, [2017-10-26T01:58:44.990565 #1]  INFO -- : reaped #<Process::Status: pid 23 exit 0> worker=6
+I, [2017-10-26T01:58:44.991130 #1]  INFO -- : master complete
